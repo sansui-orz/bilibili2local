@@ -25,3 +25,4 @@ b2l -u https://www.bilibili.com/video/BV1oA411H7Rc?p=19
 
 1. 在window的git Bash中不支持显示下载进度条，问题是`progress`不兼容
 2. node version > 12
+3. 视频为flv格式，一般系统自带播放器无法播放，考虑到视频转换的库都比较大，所以未集成自动转mp4功能，推荐下载个恒星播放器。
