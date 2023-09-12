@@ -6,14 +6,14 @@ bilibili视频命令行下载工具，根据油猴插件修改：https://greasyf
 
 ```shell
 npm install -g bilibili2local
-b2l -u https://www.bilibili.com/video/BV1oA411H7Rc?p=19
+b2l -u https://www.bilibili.com/video/BV1S94y1x7RN/
 ```
 
 ## 参数
 
 |参数|必选|默认值| 示例 | 含义 |
 | -- | -- | -- | -- | -- |
-| -u, -uri | 否 | null | https://www.bilibili.com/video/BV1oA411H7Rc?p=19 | ilibili视频网址 |
+| -u, -uri | 否 | null | https://www.bilibili.com/video/BV1S94y1x7RN/ | bilibili视频网址 |
 | -r, -range | 否 | null | 1,30 | 下载集数范围 |
 | -o, -output | 否 | dist | video | 输出文件夹 |
 
